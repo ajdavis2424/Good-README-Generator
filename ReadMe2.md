@@ -1,19 +1,19 @@
-# Good Readme Generator
-    ## Description
-    Created this Professional Readme Generator to get more familiar with NPM, as well as to have a useful readme generator moving forward
-    ## Installation
-    NPM
-    ## Usage
-    Create Readme files
-    ## License
+# 1
+    ##Description
+    1
+    ##Installation
+    1
+    ##Usage
+    1
+    ##Contributing
+    Default Contributors
+    ##Questions
+    Questions regarding this project:
+    GitHub profile: https://github.com/Default username
+    Email: Default Email
+    ##License
     This project is licensed under the MIT License
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     MIT
     
-    ## Contributing
-    Alexander J. Davis
-    ## Questions
-    Questions regarding this project:
-    GitHub profile: https://github.com/ajdavis2424
-    Email: ajdavis2424@gmail.com
   

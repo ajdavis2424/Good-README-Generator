@@ -8,12 +8,12 @@ const questions = [
   "Please provide a description of your project.",
   "How do you install your project?",
   "How do you intend for your project to be used?",
-  "What licencing was used in your project",
   "Who all has contributed to your project?",
   "How did you test your project?",
   "Please provide Instructions on how to use your project.",
   "What is your GitHub username",
   "What is your Email",
+  "What licencing was used in your project",
 ];
 
 // function to write README file
@@ -30,62 +30,63 @@ function init() {
       {
         type: "input",
         name: "title",
-        message: questions[0],
+        message: questions[],
         default: "Default Title",
       },
       {
         type: "input",
         name: "description",
-        message: questions[1],
+        message: questions[],
         default: "Default Description",
       },
       {
         type: "input",
-        name: "Installation",
-        message: questions[2],
-        default: "Default Install",
-      },
-      {
-        type: "input",
         name: "usage",
-        message: questions[3],
+        message: questions[],
         default: "Default usage",
       },
       {
-        type: "list",
-        name: "license",
-        choices: ["MIT", "GNU GPLv3", "no license"],
-        message: questions[4],
-      },
-      {
         type: "input",
-        name: "contributors",
-        message: questions[5],
-        default: "Default Contributors",
+        name: "Installation",
+        message: questions[],
+        default: "Default Install",
       },
+      
       {
         type: "input",
         name: "test",
-        message: questions[6],
+        message: questions[],
         default: "Default Test",
       },
       {
         type: "input",
         name: "instructions",
-        message: questions[7],
+        message: questions[],
         default: "Default Instructions",
       },
       {
         type: "input",
+        name: "contributors",
+        message: questions[],
+        default: "Default Contributors",
+      },
+      {
+        type: "input",
         name: "username",
-        message: questions[8],
+        message: questions[],
         default: "Default username",
       },
       {
         type: "input",
         name: "email",
-        message: questions[9],
+        message: questions[],
         default: "Default Email",
+      },
+      {
+        type: "list",
+        name: "license",
+        choices: ["MIT", "GNU GPLv3", "no license"],
+        message: questions[],
       },
     ])
     .then(function (response) {

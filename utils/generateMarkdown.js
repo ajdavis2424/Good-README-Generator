@@ -17,23 +17,33 @@ function generateMarkdown(data) {
       licenseTxt = "no license";
     }
     return `# ${data.title}
-    ## Description
+    ##Description
     ${data.description}
-    ## Installation
-    ${data.Installation}
-    ## Usage
-    ${data.usage}
-    ## License
-    ${licenseTxt}
-    ${licenseBad}
-    ${data.license}
+    ##Table of Contents
+    |                               |                         |
+    | ----------------------------- | ----------------------- |
+    | [Deloyed Project](#deployed)  | [Questions](#questions) |
+    | [Installation](#installation) | [License](#license)     |
+    | [Test](#test)                 | [Contributing](#contributing)     |
+    | [Usage](#usage)               |                         |
+    |                               |                         |
     
-    ## Contributing
+    ##Installation
+    ${data.Installation}
+    ##Usage
+    ${data.usage}
+    ##Contributing
     ${data.contributors}
-    ## Questions
+    ##Questions
     Questions regarding this project:
     GitHub profile: https://github.com/${data.username}
     Email: ${data.email}
+    ##License
+    ${licenseTxt}
+    ${licenseBad}
+    ${data.license}
+    ##Deployed Project Link
+    ${''}
   `;
   }
   

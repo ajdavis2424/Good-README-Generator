@@ -30,63 +30,63 @@ function init() {
       {
         type: "input",
         name: "title",
-        message: questions[],
+        message: questions[1],
         default: "Default Title",
       },
       {
         type: "input",
         name: "description",
-        message: questions[],
+        message: questions[2],
         default: "Default Description",
       },
       {
         type: "input",
         name: "usage",
-        message: questions[],
+        message: questions[3],
         default: "Default usage",
       },
       {
         type: "input",
         name: "Installation",
-        message: questions[],
+        message: questions[4],
         default: "Default Install",
       },
       
       {
         type: "input",
         name: "test",
-        message: questions[],
+        message: questions[5],
         default: "Default Test",
       },
       {
         type: "input",
         name: "instructions",
-        message: questions[],
+        message: questions[6],
         default: "Default Instructions",
       },
       {
         type: "input",
         name: "contributors",
-        message: questions[],
+        message: questions[7],
         default: "Default Contributors",
       },
       {
         type: "input",
         name: "username",
-        message: questions[],
+        message: questions[8],
         default: "Default username",
       },
       {
         type: "input",
         name: "email",
-        message: questions[],
+        message: questions[9],
         default: "Default Email",
       },
       {
         type: "list",
         name: "license",
         choices: ["MIT", "GNU GPLv3", "no license"],
-        message: questions[],
+        message: questions[10],
       },
     ])
     .then(function (response) {
